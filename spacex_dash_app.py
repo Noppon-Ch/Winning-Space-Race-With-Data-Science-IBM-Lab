@@ -96,7 +96,7 @@ def update_scatter_chart(selected_site, payload_range):
         x='Payload Mass (kg)',
         y='class',
         color='Booster Version Category',
-        title='Correlation between Payload and Success for {}'.format(
+        title='Relationship between Payload and Launch Outcome for {}'.format(
             selected_site if selected_site != 'ALL' else 'All Sites'
         )
     )
